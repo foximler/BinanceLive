@@ -1,1 +1,2 @@
 # BinanceLive
+A python script I made to get the last K-line data for a set market pair on binance. It takes the data and puts it into a pandas dataframe. Then it runs some TA-lib stuff on it and adds that to the dataframe. It then updates the K-line data every 5 seconds by getting the latest price, replacing the close data and rerunning the TA. The endgoal is to graph it all and allow me to get tradingview withouth paying for tradingview. 
